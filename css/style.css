@@ -25,7 +25,11 @@ body {
   overflow: hidden;
   border-radius: 0.5em;
 }
-
+.fondo {
+  background-color: var(--Softviolet);
+  height: 270px;
+  opacity: 0.3;
+}
 .box-left {
   padding: 2em;
   text-align: center;
@@ -87,6 +91,14 @@ span {
     background-size: cover;
     background-color: var(--Softviolet);
     height: auto;
+    width: 100%;
+  }
+
+  .fondo {
+    background-color: var(--Softviolet);
+
+    opacity: 0.3;
+    height: 100%;
     width: 100%;
   }
   .footer-info {
